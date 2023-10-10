@@ -1,0 +1,86 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    position: absolute;
+    bottom: 20px;
+}
+.container{
+    width: 100%;
+    /* max-width:600px;
+    margin: 20px auto; */
+    height: 200px;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    position: relative;
+}
+.container2{
+    width: 100%;
+    height: 500px;
+    border: 2px solid gray;
+    margin-bottom: 20px;
+    position: relative;
+} 
+.flex-start{
+    display: flex;
+    /* justify-content: flex-start; the default */
+}
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+.space-around{
+    display: flex;
+    justify-content: space-around;
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.jc-center{
+    display: flex;
+    justify-content: center;
+}
+.stretch{
+    display: flex;
+    align-items: stretch; /*default*/
+}
+.ai-center{
+    display: flex;
+    align-items: center;
+}
+.ai-flex-start{
+    display: flex;
+    align-items: flex-start;
+}
+.ai-flex-end{
+    display: flex;
+    align-items: flex-end;
+}
+.combination-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fd-column{
+    display: flex;
+    flex-direction: column;
+}
+.fd-column-centered{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /*vertical */
+    align-items: center; /*horizontal */
+}
+.box{
+    width:100px;
+    height: 100px; /*if remove default will be align-items:stretch*/
+    border: 2px solid gray;
+}
+.box1{
+    width:100px;
+    border: 2px solid gray;
+}
